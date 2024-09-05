@@ -1,0 +1,50 @@
+.border1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.inside1{
+    width: 500px;
+}
+.para1{
+    font-weight: bold;
+    font-size: 30px;
+    width: 250px;
+}
+.para2{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 250px;
+    text-align: justify;
+}
+.button1{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:806px) {
+    .inside1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .border1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+}
